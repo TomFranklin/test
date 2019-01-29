@@ -4,6 +4,8 @@
 
 A repository for the **Manchester Metrics** introduction to data science with applications in R and git materials for UoM ECON20110 students to clone using RStudio Cloud. These materials will be split across four weeks worth of material. 
 
+Course notes by my_name_here
+
 ## Course overview 
 
 1. Getting started with RStudio Cloud
