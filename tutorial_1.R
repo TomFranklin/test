@@ -23,14 +23,14 @@ library("dplyr")
 # How would I install the ggplot2 package? 
 # How would I load the ggplot2 package? 
 # Do the same for following packages:
-# `skimr`, `RColorBrewer` and `ggthemes` 
+# `readr`, `skimr`, `RColorBrewer` and `ggthemes` 
 
 ####
 # 2. Load data ----
-raw_data <- utils::read.csv("data/passenger_data.csv")
+raw_data <- readr::read_csv("data/passenger_data.csv")
 
 # This is equivilant but we don't use this! 
-utils::read.csv("data/passenger_data.csv") -> raw_data 
+readr::read_csv("data/passenger_data.csv") -> raw_data 
 
 ####
 # 3. Data manipulation with dplyr ----
@@ -97,10 +97,18 @@ raw_data %>%
 ####
 # 4. Data summarisation (using base R syntax)
 
+# Summary stats of passenger Sex
 table(raw_data$Sex)
 
+# Cross tabulation of passenger Sex and whether they Survived or not
 
+# Proportion tables...
 
+# Column sum table 
+
+# Row sum table 
+
+# 3 way cross tab breakdown by Passenger class, Sex and Survival status 
 
 ####
 # 5. Graphics with ggplot2 ----
