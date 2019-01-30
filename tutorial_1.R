@@ -14,16 +14,16 @@
 # 1. Install and load libraries ----
 
 # Installing R packages
-install.packages("dplyr")
+install.packages("tidyverse")
 
 # Loading R packages
-library("dplyr")
+library("tidyverse")
 
 # Tasks: 
-# How would I install the ggplot2 package? 
-# How would I load the ggplot2 package? 
+# How would I install the skimr package? 
+# How would I load the skimr package? 
 # Do the same for following packages:
-# `readr`, `skimr`, `RColorBrewer` and `ggthemes` 
+# `skimr`, `RColorBrewer` and `ggthemes` 
 
 ####
 # 2. Load data ----
