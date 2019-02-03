@@ -32,6 +32,10 @@ raw_data <- readr::read_csv("data/passenger_data.csv")
 # This is equivilant but we don't use this! 
 readr::read_csv("data/passenger_data.csv") -> raw_data 
 
+# Quick glance at the data
+
+skimr::skim(raw_data)
+
 ####
 # 3. Data manipulation with dplyr ----
 
@@ -112,11 +116,15 @@ table(raw_data$Sex)
 
 ####
 # 5. Graphics with ggplot2 ----
-raw_data %>%
-  ggplot() + 
-  geom_bar(aes(x = Pclass))
 
+# Make your first ggplot2 bar chart! 
+ggplot() 
 
+# Make a filled bar chart 
 
+# Make a ggplot2 with a theme
 
+# Make a scatterplot
 
+# Make an interactive scatterplot 
+# - Note that you'll need the `ploty` package to do this!
